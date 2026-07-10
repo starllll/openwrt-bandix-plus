@@ -60,7 +60,7 @@ else ifeq ($(ARCH),powerpc64)
 else ifeq ($(ARCH),riscv64)
 	PKG_HASH:=2148a4d78ff169ee1d99a4e1fecf95a02df96e5c0fc56e1cdff2f00a82fbb1ad
 else ifeq ($(ARCH),x86_64)
-	PKG_HASH:=5a87782ae525b5d9bd545fc3bc86a17037bdea90ebd0c7f3ba96270078c51f40
+	PKG_HASH:=ffc56458ec6e9a313bf1a0c926f391024c55aa9081abb7c8cb671fbe7c61de2b
 else
 	PKG_HASH:=dummy
 endif
