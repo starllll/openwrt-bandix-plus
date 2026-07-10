@@ -19,6 +19,8 @@ jobs:
   job_check:
     name: Check Version
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     outputs:
       openwrt-bandix-plus_version: ${{ steps.check_version.outputs.latest_version }}
       has_update: ${{ steps.check_version.outputs.has_update }}
