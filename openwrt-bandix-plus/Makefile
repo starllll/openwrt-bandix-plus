@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=bandix-plus
 PKG_VERSION:=0.1.2
-PKG_RELEASE:=6
+PKG_RELEASE:=7
 
 PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=timsaya
@@ -60,7 +60,7 @@ else ifeq ($(ARCH),powerpc64)
 else ifeq ($(ARCH),riscv64)
 	PKG_HASH:=2148a4d78ff169ee1d99a4e1fecf95a02df96e5c0fc56e1cdff2f00a82fbb1ad
 else ifeq ($(ARCH),x86_64)
-	PKG_HASH:=4c52c92937e8a66de434685222f45a0784b8baa11cef39981d0292a104f74a5b
+	PKG_HASH:=92e74407a76147a23a895d283a7f4aa335742e4defb493cc91e0f26f0d5b4cdc
 else
 	PKG_HASH:=dummy
 endif
