@@ -190,9 +190,9 @@ jobs:
           #   ver: "ipk"
 
           # --- snapshots (apk) ---
-          - platform: x86_64
-            sdk_ver: snapshots
-            ver: "apk"
+          # - platform: x86_64
+          #   sdk_ver: snapshots
+          #   ver: "apk"
           # - platform: arm_cortex-a15_neon-vfpv4
           #   sdk_ver: snapshots
           #   ver: "apk"
